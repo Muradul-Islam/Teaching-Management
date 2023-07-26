@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik",sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    background-color: azure;
+    width: 60%;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 40px 50px;
+    box-shadow: 0 25px 35 rgba(0, 0, 0,0.05);
+    border-radius: 7px;
+}
+
+.image-container{
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+
+.image-container img{
+    display: block;
+    object-fit: contain;
+    max-width: 100%;
+    position: relative;
+    max-height: 300px;
+    margin: auto;
+}
+
+
+input[type="file"]{
+    display: none;
+}
+
+.choose-photo{
+    
+    display: block;
+    background-color:#025bee;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 18px 0;
+    width: 250px;
+    border-radius: 6px;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.description{
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.title .course-title{
+    margin-right: 5px;
+}
+
+.title #course-title{
+    border: none;
+    background-color: transparent;
+    border-bottom:2px solid #ccc;
+    transition: 0.5s ease-in-out;
+    outline: none;
+}
+
+.title #course-title:focus {
+    border-bottom: 2px solid #555;
+    background-color: lightblue;
+  }
+
+#course-description{
+    display: block;
+    margin: auto;
+    resize: none;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+#course-description:focus{
+    border-bottom: 2px solid #555;
+    background-color: lightblue;
+}
+
+
+.dates{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dates #start-date{
+    margin-right: 10px;
+}
+
+.instructor-details{
+    margin-bottom: 30px;
+}
+
+
+.instructor-details p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.instructor-details #instructor-name{
+    margin-right: 5px;
+    border-radius: 4px;
+    padding: 10px 30px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.instructor-details #instructor-name:focus{
+    border-bottom: 2px solid #555;
+    background-color: lightblue;
+}
+
+.instructor-details #instructor-id{
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.instructor-details #instructor-id:focus{
+    border-bottom: 2px solid #555;
+    background-color: lightblue;
+}
+
+
+.btn-submit{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FD6E0A;
+    box-shadow: 7px 7px 7px dimgray;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn-submit:hover{
+    color: white;
+	box-shadow:7px 7px 10px aqua;
+}
+
+.btn-back{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FD6E0A;
+    box-shadow: 7px 7px 7px dimgray;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn-back:hover{
+    color: white;
+	box-shadow:7px 7px 10px aqua;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}

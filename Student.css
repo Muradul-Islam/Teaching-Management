@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+h1{
+	font-family:"HP Simplified", "Lucida Grande", Tahoma, sans-serif;
+}
+
+
+
+body {
+	background-color: antiquewhite;
+}
+
+
+header {
+	background-color: beige;
+	color:Black;
+	padding: 20px;
+	margin: 20px 0;
+	opacity: 0.8;
+	text-align: center;
+
+}
+
+.buttons{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	padding: 40px 50px;
+	margin:0px auto;
+	gap:2em;
+	flex-basis: 1;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.buttons>a>.btn{	
+	background-color: #FD6E0A;
+	text-align: center;
+	border: transparent;
+	border-radius:28px;
+	font-size: 35px;
+	box-shadow:20px 20px 20px dimgrey;
+	width: 200px;
+	height: 150px;	
+}
+		
+.btn.related:hover {
+	color: white;
+	box-shadow:20px 20px 20px aqua;
+}
+			
+			
+			
+.btn.logOut:hover {
+	color: antiquewhite;
+	background-color: aqua;
+}
+	
+			
+
+			

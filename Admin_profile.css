@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: antiquewhite;
+}
+
+.head h2{
+    background-color: aliceblue;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    font-size: 35px !important;
+    font-weight: 600;
+    letter-spacing: 2px !important;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem !important;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blue(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    background-color: azure;
+}
+
+.content h3{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px !important;
+}
+
+.content>form>p>label,input{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.content>form>p>input{
+    border: transparent;
+    background-color: azure;
+    border-radius: 7px;
+    backdrop-filter: blue(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 30px !important;
+    padding: 20px;
+    
+}
+
+.error {
+    width: 92%; 
+    margin: 0px auto;
+    margin-bottom: 10px; 
+    padding: 6px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+
+#number{
+    margin-bottom: 15px;
+}
+
+.content p{
+    margin-bottom: 10px;
+}
+
+.content>p>label{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px !important;
+}
+
+.content input{
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+    backdrop-filter: blue(20px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border: transparent;
+}
+
+.btn-submit{
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100px !important;
+    height: 40px !important;
+    border-radius: 7px;
+    backdrop-filter: blue(20px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: #FD6E0A;
+    border: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: antiquewhite;
+    
+}
+
+.btn-submit:hover {
+    background-color: blueviolet;
+	color: white;
+	box-shadow:2px 2px 2px aqua;
+}

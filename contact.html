@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Form </title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<header class="intro">
+  <h1 style="text-align: center;"><a href="Front-Page.html">Home</a></h1>
+</header>
+
+<main>
+  <div class="form-container">
+    <h1>Contact Form</h1>
+    <form name="contactForm" method="post" onsubmit="return validate()" action="#">
+      <label for="name">* Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name">
+      <span class="errors"></span><br>
+
+      <label for="email">* Email</label>
+      <input type="text" placeholder="Email address" id="email" name="email">
+      <span class="errors"></span><br>
+
+      <label for="phone">* Phone</label>
+      <input type="text" placeholder="Phone number" id="phone" name="phone">
+      <span class="errors"></span><br>
+
+      <label for="subject">* Message</label>
+      <textarea placeholder="Your message" cols="132" rows="5" name="subject" id="subject"></textarea>
+      <span class="errors"></span><br>
+
+      <button type="submit" value="Submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="map"></div>
+</main>
+
+<script src="js/contactJs.js"></script>
+<script>
+  function initMap() {
+    var mapOptions = {
+      center: {lat: 37.7749, lng: -122.4194}, // Update with your desired latitude and longitude
+      zoom: 10 // Adjust the zoom level as needed
+    };
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=lat: 37.7749, lng: -122.4194&callback=initMap" async defer></script>
+
+<footer>
+  <ul>
+    <li> <a href="http://127.0.0.1:5501/Front-Page.html?email=&password=">Home Page</a></li> |
+    <li> <a href="http://127.0.0.1:5500/SignUp.html"> Login </a>  </li> |
+     
+  </ul>
+  </footer>
+</body>
+</html>

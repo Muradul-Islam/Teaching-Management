@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Edit Account</title>
+   <link rel="stylesheet" href="EditAccount.css" />
+  
+</head>
+
+<body>
+<!-------------------Header------------------------>
+<header>
+	<h1> RMM Online Courses</h1>
+
+
+</header>
+
+<!-------------------Form------------------------>
+<section id="register">
+   <form method="POST" action="UpdateData.php" name="regForm">
+      <fieldset id="signUpInfo">
+         <h2>Edit Your Account</h2>
+         <hr>
+         <h4>Personal Information</h4>
+         First Name: <br>
+         <input type="text" placeholder="First Name" name="firstName"><br>
+		 <button type="submit" class="buttonS" name="Edit1">Edit</button><br>
+         Last Name: <br>
+         <input type="text" placeholder="Last Name" name="lastName"><br>
+		 <button type="submit" class="buttonS" name="Edit2">Edit</button><br>
+         Phone Number: <br>
+         <input type="text" placeholder="01xxxxxxxx" name="phoneNumber"><br>
+		 <button type="submit" class="buttonS" name="Edit4">Edit</button><br>
+         Email: 
+         <input type="email" placeholder="email" name="email"><br>
+		 <button type="submit" class="buttonS" name="Edit4">Edit</button><br>
+       Designation: 
+            <label for="Student">
+               <input type="checkbox" name="pitha" id="Student">
+               Student
+           </label>
+           <label for="Training provide">
+               <input type="checkbox" name="Training provide" id="Training provide">
+               Training provide
+           </label>
+           <label for="Instructor">
+               <input type="checkbox" name="Instructor" id="Instructor">
+               Instructor
+           <br>
+          <button type="submit" class="buttonS" name="Edit4">Edit</button><br>
+
+          Edit Password:<br>
+              <input type="password"  placeholder="Create A New Password"  name="password"><br>
+              <input type="password"  placeholder="Confirm Password"  name="password"><br>
+              <button type="submit" class="buttonS" name="Edit4">Edit</button><br>
+
+         <hr>
+         <h4>Login Information</h4>
+         Email: <br>
+         <input type="text" placeholder="Email" name="email"><br>
+		 <button type="submit" class="buttonS" name="Edit5">Edit</button><br>
+         Password: <br>
+         <input type="password" placeholder="Password" name="password"><br>
+		 <button type="submit" class="buttonS" name="Edit6">Edit</button><br>
+      </fieldset>
+      <button type="submit" id="MainButton"  name="Submit">Submit</button><br>
+   </form>
+
+</section>
+
+<footer>
+<ul>
+  <li> <a href="Front-Page.html">Home Page</a></li> |
+  <li> Contact Us </li> |
+  <li> About Us </li> 
+</ul>
+</footer>
+</body>
+</html>
+</html>
