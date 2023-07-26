@@ -103,7 +103,7 @@ if(isset($_POST['login_user'])){
                 $result = mysqli_query($con,$user_check_query);
                 
                 if(mysqli_num_rows($result)==1){
-                    header('location:Training-Providers.php');
+                    header('location:Training-Providers.html');
                     $_SESSION['username'] = $userName;
                 }
                 else{
